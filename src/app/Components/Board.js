@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './Square';
-import Styles from './Board.module.css';
+import styles from './Board.module.css';
 
 const Board=()=>{
   const board = Array.from ({length: 8}, (_, row) => (
@@ -9,7 +9,7 @@ const Board=()=>{
       <Square key={`${row}-${col}`} row={row} col ={col}/>
     ))}
   </div>
-);
+));
 return <div>{board}</div>;
 }
 

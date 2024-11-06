@@ -9,9 +9,9 @@
 }
 
 .black{
-  color: rgb(157, 13, 13);
+  background-color: rgb(157, 13, 13);
 }
 
 .white{
-  color:bisque;
+  background-color:bisque;
 }
