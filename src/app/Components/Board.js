@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { useState } from 'react';
 import Square from './Square';
 import Piece from './Piece';
 import styles from './Board.module.css';
@@ -25,3 +25,4 @@ const initialBoardState={
   '7.6':'knight','7,7':'rook'
 
 }
+
