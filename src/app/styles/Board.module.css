@@ -6,6 +6,10 @@
 .square{
   width: 60px;
   height: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 32px;
 }
 
 .black{
@@ -13,5 +17,9 @@
 }
 
 .white{
-  background-color:bisque;
+  background-color:rgba(222, 188, 155, 0.923);
+}
+
+.piece {
+  cursor: pointer;
 }
